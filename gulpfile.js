@@ -71,7 +71,7 @@ var cache = function (req, res, next) {
 
 gulp.task('server-dev', function () {
     browserSync.init({
-        port: 8000,
+        port: process.env.PORT || 8000,
         server: './' + dir.generated,
         middleware: [
             historyApiFallback()
