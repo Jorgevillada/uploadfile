@@ -1,0 +1,49 @@
+@import "contants.less";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+
+.infoText{
+    font-family:  'Roboto', sans-serif  !important;
+}
+input, select{
+    font-family:  'Roboto', sans-serif , verdana, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+body, button, html, textarea {
+    font-family:  'Roboto', sans-serif , verdana, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: @tamanio_letra !important;
+}
+th{
+    font-size: @tamanio_letra_th !important;
+    font-weight: 900 !important;
+}
+td{
+    font-size: @tamanio_letra !important;
+}
+md-toast{
+    font-size: @tamanio_letra !important;
+}
+.md-title{
+    font-weight: bold;
+}  
+
+.md-button.md-fileupload-theme.md-raised-mini{
+    min-width: 42px;
+}
+
+@media(max-width: 1367px){
+    body, button, html, textarea {
+        font-size: @tamanio_letra_td_lt_1200 !important;
+    }
+    .custom-elemento-hijo{
+        font-size: @tamanio_letra_td_lt_1200 !important;
+    }
+
+    th{
+        font-size: 13px !important;
+    }
+    td{
+        font-size: 12px !important;
+    }
+}

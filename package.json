@@ -1,0 +1,66 @@
+{
+  "name": "uploadfile",
+  "version": "1.0.0",
+  "description": "Upload File",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "start": "./node_modules/.bin/gulp"
+  },
+  "license": "MIT",
+  "author": "Jorge Villada <jorg.villada@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "angular": "1.6.x",
+    "angular-animate": "~1.6.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-translate": "~2.13.0",
+    "angular-translate-loader-partial": "~2.13.0",
+    "angular-translate-loader-static-files": "^2.15.2",
+    "angular-ui-bootstrap": "2.5.4",
+    "angular-ui-router": "~0.4.0",
+    "blueimp-file-upload": "^9.19.1",
+    "bootstrap": "3.1.x",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.6",
+    "browser-sync": "^2.18.7",
+    "connect-history-api-fallback": "~1.1.0",
+    "gulp": "~3.9.0",
+    "gulp-angular-templatecache": "~2.0.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-clean-css": "2.3.2",
+    "gulp-concat": "~2.6.1",
+    "gulp-connect": "~5.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "~2.0.4",
+    "gulp-less": "~3.3.0",
+    "gulp-sync": "~0.1.4",
+    "gulp-template": "^4.0.0",
+    "gulp-uglify": "~2.0.0",
+    "gulp-uncss": "~1.0.6",
+    "gulp-watch": "~4.3.11",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "jshint": "~2.9.4",
+    "jshint-stylish": "~2.2.1",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0"
+  },
+  "main": "index.js",
+  "private": true
+}
